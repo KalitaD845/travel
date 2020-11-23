@@ -1,0 +1,529 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Montserrat;
+}
+
+.container{
+    max-width: 1128px;
+    margin: auto;
+   
+    
+}
+.burger{
+    display: none;
+}
+header{
+    position: absolute;
+    width: 1128px;
+    left: 156px;
+    top: 29px;
+    z-index: 10;
+    color: #FFFFFF;
+    align-items: baseline
+
+}
+.head a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 32px;
+    color: #FFFFFF;
+    text-decoration: none;
+    
+}
+.head li{
+    list-style-type: none;
+    padding: 0 20px ;
+}
+.head ul{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.points {
+    display: flex;
+    flex-direction: inherit;;
+    text-decoration: none;
+    list-style-type: none;
+}
+ 
+ul{
+    display: flex;
+}
+.background-img{
+    background-image: url(img/Rectangle\ 2.1.png);
+    min-height:1034px; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+h1{ 
+  
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 58px;
+    color: #FFFFFF;
+}
+h3{
+   
+    height: 69px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 38px;
+    color: #FFFFFF;
+
+}
+.backgray{
+    background-color: rgba(128, 128, 128, 20%);
+    min-height: 1034px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.03) 2.5%, rgba(27, 30, 34, 0.4) 42.42%, #1B1E22 80.67%);
+    
+}
+.registration{
+    width: 500px;
+    height: 360px;
+    background: rgba(51, 51, 51, 0.25);
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(24px);
+    border-radius: 10px;
+    padding: 57px  70px;
+     
+} 
+form{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+}
+.registration a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    text-decoration: none;
+    text-align: center;
+    background: #FFB800;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    padding: 5px 0;
+
+}
+.where{
+    width: 360px;height: 36px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    background: transparent;
+}
+form select{
+    width: 360px;height: 36px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.gor{
+    display: flex;
+    justify-content: space-between;
+}
+.when, .howmach{
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 36px;
+    background: transparent;
+    
+}
+.type{
+    background: transparent;
+}
+
+.why-we{
+  
+    height: 227px;
+    right: 156px;
+    top: 734px;
+    margin:0 auto 48px ;
+    
+    
+}
+.home{
+    height: 760px;
+    display: flex;
+    padding: 190px 0 0 0;
+}
+.explore{
+    height: 240px;
+}
+.registration p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+.advantages{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+  h2{
+    width: auto;
+    text-align: center;
+    margin: auto;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 38px;
+    color: #FFFFFF;
+    padding: 41px 0;
+     
+}
+.visa{
+    width: 264px;
+    height: 168px;
+    background-image:url(img/visa.svg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    
+     
+    
+}
+.visa p, .world p, .gids p, .equipment p{
+    padding: 102px 0 0 0;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-align: center;
+}
+.world{
+    background-image: url(img/world.svg);
+    background-position-x: center;
+    width: 264px;
+    height: 168px;
+    background-repeat: no-repeat;
+   
+}
+ 
+.gids{
+    background-image: url(img/hunter.svg);
+    background-position-x: center;
+    width: 264px;
+    height: 168px;
+    background-repeat: no-repeat;
+      
+}
+ 
+.equipment{
+    background-image: url(img/bbq.svg);
+    background-position-x: center;
+    width: 264px;
+    height: 168px;
+    background-repeat: no-repeat;
+  
+}
+section{
+    background: #1B1E22 ;
+}
+.tour{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.camping, .trekking, .ushba, .saima, .troll, .island{
+    width: 360px;
+    height: 432px; 
+    
+}
+/* .camping, .trekking, .ushba, .saima, .troll, .island:hover{
+   transform: scale(1.2);
+} */
+.camping:hover, .trekking:hover, .ushba:hover, .saima:hover, .troll:hover, .island:hover{
+    transform: scale(1.1);
+}
+ 
+.pricecontant{
+    display:flex;
+    width: 248px;
+    height: 32px;
+    padding: 159px 0 0 0;
+}
+.pricecontant :first-child{
+    height:32px ;
+    font-family: Montserrat;
+    font-style: normal ;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #1B1E22;
+    background: #FFB800;
+  
+}
+.pricecontant :nth-child(2){
+    height: 32px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    background: #1B1E22;
+    opacity: 0.75;
+    border-radius: 0px 6px 6px 0px; 
+}
+#home{
+    display: flex;
+    align-items: flex-end;
+}
+
+.camping .price{
+    width: auto;
+    height: 216px;
+    background-image: url(img/Rectangle\ 7.png);
+}
+.trekking .price{
+    width: auto;
+    height: 216px;
+    background-image: url(img/Rectangle\ 7\ \(1\).png);
+}
+.ushba .price{
+    width: auto;
+    height: 216px;
+    background-image: url(img/Rectangle\ 7\ \(2\).png);
+}
+.saima .price{
+    width: auto;
+    height: 216px;
+    background-image: url(img/Rectangle\ 7\ \(3\).png);
+}
+.troll .price{
+    width: auto;
+    height: 216px;
+    background-image: url(img/Rectangle\ 7\ \(4\).png);
+}
+.island .price{
+    width: auto;
+    height: 216px;
+    background-image: url(img/Rectangle\ 7\ \(5\).png);
+}
+.information{
+     background-color: rgb(60, 66, 75);
+}
+.information:hover{
+    background-color: #FFFFFF;
+}
+.information:hover p{
+    color: #1B1E22;
+}
+.information :first-child{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 16px 20px;
+}
+.information :nth-child(2){
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px; 
+    color: #FFFFFF;
+    padding: 0 20px 17px 20px;
+}
+.information :nth-child(3){
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 0.5;
+    padding: 0 0 24px 20px;
+
+}
+.lookall{
+    width: 216px;
+    height: 48px;
+    border: #FFB800 1px solid;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 0 0 72px 0;
+    
+}    
+.lookall a{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+.lookallpar{
+    display: flex;
+    justify-content: center;
+}
+.fact p:first-child{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 78px;
+    line-height: 58px;
+    color: #FFB800;
+}
+.fact p:last-child{
+    color: #FFFFFF;
+    padding: 23px 0 0 0;
+}
+.fact p{
+    text-align: center;
+}
+.container .facts {
+    display: flex;
+    justify-content: space-around;
+   
+}
+.fac{
+    background-image: url(img/Rectangle\ \(1\).png); 
+    background-color:rgba(27, 30, 34, 0.78);
+    background-size: cover;
+   
+    padding: 59px 0;
+}
+ 
+@media(max-width:1248px){
+     .home{
+         display: block;
+         max-width: 540px;
+         margin: auto;
+     }
+     .why-we{
+        margin: auto;
+        height: auto;
+         display: flexbox;
+         flex-wrap: 
+     }
+     .head{
+        display: block;
+        max-width: auto;
+     }
+     header{
+        width: auto;
+     }
+     .advantages{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+     }
+     .container{
+         max-width: max-content;
+     }
+}
+@media(max-width:1090px){
+  
+    .left{
+        display: block;
+    }
+    .left>{
+        margin: 20px 0;
+    }
+
+
+    .points {
+        display: block;
+    }
+    .heade{
+        display: block;
+        
+    }
+}
+@media(max-width:796px){ 
+     .menu{
+        display: none;
+    }
+    .burger{
+        display: flex;
+    }
+    nav{
+        height:100px;
+    }
+    .burger:hover + nav{
+        display: block;
+        position: absolute;
+        left: 0;
+        right: 0;
+        background-color: #1B1E22;
+    }
+}
+@media(max-width:716px){
+     .tour{
+         max-width: 330px;
+         margin: auto;
+     }
+     .facts{
+         flex-direction: column;
+         background
+     }
+     .registration{
+        width:80%;
+        margin: auto;
+     }
+     .registration .where, .registration .type{
+         width: auto;
+     }
+     .registration .gor{
+         display: block;
+     }
+     h3{
+         display: none;
+     }
+}  
+@media(max-width:524px){
+    .advantages{
+        max-width: 200px;
+        margin:auto;
+    }
+    .left{
+        display: block;
+    }
+}
+@media(max-width:399px){
+    .camping, .trekking, .ushba, .saima, .troll, .island{
+        width: 80%;
+        margin: auto;
+    }
+   
+}
